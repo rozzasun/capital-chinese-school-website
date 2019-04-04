@@ -1,7 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+
+body {
+    font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
+    font-size: 15px;
+    background-color: #F2F2F2;
+}
+
+button {
+    background-color: #B6D094;
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+.jumbotron {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: white;
+    color: rgb(90, 117, 54);
+}
+
+.jumbotron a, li {
+    font-size: 20px;
+}
+
+.jumbotron h2, h3, h4, strong, .card-text {
+    color: rgb(29, 66, 17);
+}
+
+.navbar {
+    background-color: #B6D094;
+}
+
+.title {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.user_nav ul li {
+    background-color: #B6D094;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.user_nav ul li:hover {
+    background-color: #A6BE87;
+}
+
+.list-group-item.active {
+    background-color: #85986C;
+    border-color: #85986C;
+}
+
+.user_nav ul li a {
+    color: #13262F;
+    font-size: 20px;
+}
+
+.logo-img {
+    -webkit-filter: drop-shadow(1px 1px 0 black) 
+                    drop-shadow(-1px -1px 0 white);
+    filter:drop-shadow(1px 1px 0 black) 
+           drop-shadow(-1px -1px 0 white);
+    max-height: 100px;
+}
+
 h2 {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 p {
-    font-size: 30px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #B6D094;
 }

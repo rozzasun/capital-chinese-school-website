@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -14,81 +16,116 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="#">Ottawa Capital Chinese School</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="fa fa-book"></i>
-              Courses
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="fa fa-certificate"></i>
-              Interest Classes
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="fa fa-calendar"></i>
-              Calendar
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="fa fa-file-o"></i>
-              Registration
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="fa fa-envelope-open-o"></i>
-              Newsletters
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="fa fa-picture-o"></i>
-              Photos
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-        </ul>
+
+  <!-- Top Bar -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm flex-nowrap align-items-start shadow mb-2 rounded">
+      <img class="logo-img" src="img/OCCSLogo.png">
+      <div class="d-flex flex-column container">
+        <div class="d-sm-flex d-block flex-nowrap">
+          <p class="navbar-brand title" href="#">渥太华首都中文学校</p>
+        </div>
+        <p class="sub-title">Ottawa Capital Chinese School</p>
+      </div>
+      <img class="logo-img" src="img/OCSBLogo.png">
+    </nav>
+  </div>
+
+  <!-- Body -->
+  <div class="container-fluid">
+    <div class="row mt-4">
+
+      <!-- SideNav -->
+      <div class="col-lg-3 col-md-4">
+        <nav class="user_nav">
+          <ul class="list-group">
+            <li class="list-group-item active">
+              <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home | 首页</a>
+            </li>
+
+            <li class="list-group-item">
+              <a class="nav-link" href="courses.html"><i class="fa fa-book"></i> Courses | 课程介绍</a>
+            </li>
+
+            <li class="list-group-item">
+              <a class="nav-link" href="interest.html"><i class="fa fa-certificate"></i> Interest Classes | 兴趣课</a>
+            </li>
+
+            <li class="list-group-item">
+              <a class="nav-link" href="documents/calendar.pdf"><i class="fa fa-calendar"></i> Calendar | 学校校历</a>
+            </li>
+
+            <br>
+            <li class="list-group-item">
+              <a class="nav-link" href="registration.html"><i class="fa fa-file-o"></i> Registration | 注册报名</a>
+            </li>
+
+            <li class="list-group-item">
+              <a class="nav-link" href="newsletter.html"><i class="fa fa-envelope-open-o"></i> Newsletters | 校园新闻</a>
+            </li>
+
+            <li class="list-group-item">
+              <a class="nav-link" href="photos.html"><i class="fa fa-picture-o"></i> Photos | 相片集锦</a>
+            </li>
+
+            <li class="list-group-item">
+              <a class="nav-link" href="contact.html"><i class="fa fa-phone"></i> Contact Us | 联系我们</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Main Content -->
+      <div class="col-lg-9 col-md-8">
+
+        <!-- Chinese -->
+        <div class="jumbotron">
+          <h2 class="text-center">学校简介</h2>
+          <hr>
+          <p>渥太华首都中文学校隶属于渥太华卡尔顿天主教教育局，师资强大，拥有学员逾千人。该校融合西方的语言交际教学法与传统的中文教学法于一体
+            根据学员的需求及中国语言的特点，设计独特的教学大纲对学员进行听说读写全方位的语言培训。</p>
+        </div>
+
+        <!-- English -->
+        <div class="jumbotron">
+          <h2 class="text-center">Introduction</h2>
+          <hr>
+          <p>
+            The Ottawa Capital Chinese School operates within the regulations of the Ottawa Carleton Catholic School
+            Board.
+            The school possesses highly qualified teachers and has trained thousands of students. Advanced teaching
+            method
+            is applied by integrating the advantages of the Western communicative language teaching approaches
+            into traditional Chinese teaching approaches. The curriculum is designed in accordance with the students'
+            needs and features of Chinese language, which intends to enhance the learner's abilities in the aspects of
+            listening, speaking, reading and writing. In order to accormodate the needs of the students, we also provide
+            classes for the non-native Chinese speaker.
+          </p>
+        </div>
+
+        <!-- Links to forms -->
+        <div class="jumbotron">
+          <h2 class="text-center">Links | 链接</h2>
+          <hr>
+          <li><a href="documents/OCCS Pam Summer 2019.pdf">2019 Summer School Information</a><br></li>
+          <li><a href="documents/IL_Credit_RegForm_2018.pdf">2018-2019 Secondary (Credit Course) Registration
+              Form</a><br></li>
+          <li><a href="documents/Camp Registration form 19.pdf">2019 Summer Camp Registration Form</a></li>
+        </div>
+
       </div>
     </div>
-  </nav>
+  </div>
 
-  <article class="container main">
-    <img class="img-fluid" src="img/school.jpg">
-    <h2>学校简介:</h2>
-    <p>渥太华首都中文学校隶属于渥太华卡尔顿天主教教育局，师资强大，拥有学员逾千人。该校融合西方的语言交际教学法与传统的中文教学法于一体
-      根据学员的需求及中国语言的特点，设计独特的教学大纲对学员进行听说读写全方位的语言培训。</p>
+  <!-- Footer -->
+  <div class="container-fluid mt-4">
+    <footer class="page-footer font-small rounded">
 
-    <p>
-      The Ottawa Capital Chinese School operates within the regulations of the Ottawa Carleton Catholic School Board.
-      The school possesses highly qualified teachers and has trained thousands of students. Advanced teaching method
-      is applied by integrating the advantages of the Western communicative language teaching approaches
-      into traditional Chinese teaching approaches. The curriculum is designed in accordance with the students'
-      needs and features of Chinese language, which intends to enhance the learner's abilities in the aspects of
-      listening, speaking, reading and writing. In order to accormodate the needs of the students, we also provide
-      classes for the non-native Chinese speaker.
-    </p>
-    <ul class="text-center">
-      <a>2018 Summer School Information</a><br>
-      <a>2018-2019 Elementary Registration Form</a><br>
-      <a>2018-2019 Secondary (Credit Course) Registration Form</a>
-    </ul>
-  </article>
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2018 Ottawa Capital Chinese School. All Righs Reserved.</div>
 
+    </footer>
+  </div>
 
 </body>
 
