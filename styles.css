@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Satisfy&display=swap');
 
 body {
     font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
@@ -33,8 +33,17 @@ button {
     background-color: #B6D094;
 }
 
+.navbar-brand {
+    font-size: 3.5rem;
+}
+
 .title {
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+
+.sub-title {
+    font-family: 'Satisfy', cursive;
+    font-size: x-large;
 }
 
 .user_nav ul li {
@@ -62,7 +71,7 @@ button {
                     drop-shadow(-1px -1px 0 white);
     filter:drop-shadow(1px 1px 0 black) 
            drop-shadow(-1px -1px 0 white);
-    max-height: 100px;
+    max-height: 150px;
 }
 
 h2 {
