@@ -12,6 +12,7 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
+  <script src="language.js"></script>
   <title>渥太华首都中文学校</title>
 </head>
 
@@ -22,7 +23,8 @@
       <img class="d-none d-md-block logo-img img-fluid"  src="img/OCCSLogo.png">
       <div class="d-flex flex-column align-items-center">
         <div class="d-sm-flex d-block flex-nowrap">
-          <p class="navbar-brand mr-5 ml-5 title" href="#">渥太华首都中文学校</p>
+          <p class="mando navbar-brand mr-5 ml-5 title" href="#">渥太华首都中文学校</p>
+          <p class="canto navbar-brand mr-5 ml-5 title" href="#">渥太華首都中文學校</p>
         </div>
         <p class="sub-title">Ottawa Capital Chinese School</p>
       </div>
@@ -36,39 +38,50 @@
 
       <!-- SideNav -->
       <div class="col-lg-3 col-md-4">
+        <div class="ml-1 row justify-content-start">
+          <div><button class="btn btn-link" id="mandarin-btn">Mandarin 普通话</button> | <button class="btn btn-link" id="cantonese-btn">Cantonese 粤语</button></div>
+        </div>
         <nav class="user_nav">
           <ul class="list-group">
             <li class="list-group-item">
-              <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home | 首页</a>
+              <a class="mando nav-link" href="index.html"><i class="fa fa-home"></i> Home | 首页</a>
+              <a class="canto nav-link" href="index.html"><i class="fa fa-home"></i> Home | 首頁</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="courses.html"><i class="fa fa-book"></i> Courses | 课程介绍</a>
+              <a class="mando nav-link" href="courses.html"><i class="fa fa-book"></i> Courses | 课程介绍</a>
+              <a class="canto nav-link" href="courses.html"><i class="fa fa-book"></i> Courses | 課程介紹</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="interest.html"><i class="fa fa-certificate"></i> Interest Classes | 兴趣课</a>
+              <a class="mando nav-link" href="interest.html"><i class="fa fa-certificate"></i> Interest Classes | 兴趣课</a>
+              <a class="canto nav-link" href="interest.html"><i class="fa fa-certificate"></i> Interest Classes | 興趣課</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="documents/calendar.pdf"><i class="fa fa-calendar"></i> Calendar | 学校校历</a>
+              <a class="mando nav-link" href="documents/calendar.pdf"><i class="fa fa-calendar"></i> Calendar | 学校校历</a>
+              <a class="canto nav-link" href="documents/calendar.pdf"><i class="fa fa-calendar"></i> Calendar | 學校校歷</a>
             </li>
 
             <br>
             <li class="list-group-item">
-              <a class="nav-link" href="registration.html"><i class="fa fa-file-o"></i> Registration | 注册报名</a>
+              <a class="mando nav-link" href="registration.html"><i class="fa fa-file-o"></i> Registration | 注册报名</a>
+              <a class="canto nav-link" href="registration.html"><i class="fa fa-file-o"></i> Registration | 註冊報名</a>
             </li>
 
             <li class="list-group-item active">
-              <a class="nav-link" href="newsletter.html"><i class="fa fa-envelope-open-o"></i> Newsletters | 校园新闻</a>
+              <a class="mando nav-link" href="newsletter.html"><i class="fa fa-envelope-open-o"></i> Newsletters | 校园新闻</a>
+              <a class="canto nav-link" href="newsletter.html"><i class="fa fa-envelope-open-o"></i> Newsletters | 校園新聞</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="photos.html"><i class="fa fa-picture-o"></i> Photos | 相片集锦</a>
+              <a class="mando nav-link" href="photos.html"><i class="fa fa-picture-o"></i> Photos | 相片集锦</a>
+              <a class="canto nav-link" href="photos.html"><i class="fa fa-picture-o"></i> Photos | 相片集錦</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="contact.html"><i class="fa fa-phone"></i> Contact Us | 联系我们</a>
+              <a class="mando nav-link" href="contact.html"><i class="fa fa-phone"></i> Contact Us | 联系我们</a>
+              <a class="canto nav-link" href="contact.html"><i class="fa fa-phone"></i> Contact Us | 聯繫我們</a>
             </li>
           </ul>
         </nav>
@@ -104,7 +117,9 @@
                 holiday.</small></strong></p>
 
         </div>
-        <div class="jumbotron">
+
+        <!-- Mandarin -->
+        <div class="mando jumbotron">
           <h4 class="text-center">给家长和学生的重要信息</h4>
           <hr>
           <ol>
@@ -119,6 +134,25 @@
                 星期六电话号码（首都中文学校）：613-293-2129</li>
           </ol>
           <p><small><strong>在这里代表首都中文学校，祝您和您的家人度过一个安全愉快的假期! </strong></small></p>
+
+        </div>
+
+        <!-- Cantonese -->
+        <div class="canto jumbotron">
+          <h4 class="text-center">給家長和學生的重要信息</h4>
+          <hr>
+          <ol>
+            <li>冬季來臨，提醒家長請注意中文學校的交通規章, 避免停車場交通堵塞和事故，禁止把車輛停泊在火警區內, 避免被拖車。 </li>
+            <li>下學期的興趣課開始註冊：2019年12月 7日 於230教室。請閱讀背頁上教育局的信。 </li>
+            <li>2019年12月21日和28日，2020年1月4日沒有中文課，1月11日返校；<br>
+                家庭日週末：2020年2月15日, 沒有中文課。
+            </li>
+            <li>春節遊戲活動於2020年1月18日在咖啡廳舉行，屆時將有遊戲/獎品/小食品，還有倍受同學和家長	們歡迎的龍舞/獅子舞以及表演等，讓我們來共同歡慶鼠年的到來！請在上午10點來參加有趣的活動。 </li>
+            <li>下學期的興趣課於 2020年1月25日開始。 </li>
+            <li>首都中文學校地址：Notre Dame High School, 710 Broadview Ave.<br>
+                星期六電話號碼（首都中文學校）：613-293-2129</li>
+          </ol>
+          <p><small><strong>在這裡代表首都中文學校，祝您和您的家人度過一個安全愉快的假期! </strong></small></p>
 
         </div>
       </div>

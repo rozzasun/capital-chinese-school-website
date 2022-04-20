@@ -13,9 +13,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
   <title>渥太华首都中文学校</title>
+  <script src="language.js"></script>
 </head>
 
 <body>
+
+  <div id="google_translate_element"></div>
 
   <!-- Top Bar -->
   <div class="container-fluid">
@@ -23,7 +26,8 @@
       <img class="d-none d-md-block logo-img img-fluid"  src="img/OCCSLogo.png">
       <div class="d-flex flex-column align-items-center">
         <div class="d-sm-flex d-block flex-nowrap">
-          <p class="navbar-brand mr-5 ml-5 title" href="#">渥太华首都中文学校</p>
+          <p class="mando navbar-brand mr-5 ml-5 title" href="#">渥太华首都中文学校</p>
+          <p class="canto navbar-brand mr-5 ml-5 title" href="#">渥太華首都中文學校</p>
         </div>
         <p class="sub-title">Ottawa Capital Chinese School</p>
       </div>
@@ -37,39 +41,50 @@
 
       <!-- SideNav -->
       <div class="col-lg-3 col-md-4">
+        <div class="ml-1 row justify-content-start">
+          <div><button class="btn btn-link" id="mandarin-btn">Mandarin 普通话</button> | <button class="btn btn-link" id="cantonese-btn">Cantonese 粤语</button></div>
+        </div>
         <nav class="user_nav">
           <ul class="list-group">
             <li class="list-group-item active">
-              <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home | 首页</a>
+              <a class="mando nav-link" href="index.html"><i class="fa fa-home"></i> Home | 首页</a>
+              <a class="canto nav-link" href="index.html"><i class="fa fa-home"></i> Home | 首頁</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="courses.html"><i class="fa fa-book"></i> Courses | 课程介绍</a>
+              <a class="mando nav-link" href="courses.html"><i class="fa fa-book"></i> Courses | 课程介绍</a>
+              <a class="canto nav-link" href="courses.html"><i class="fa fa-book"></i> Courses | 課程介紹</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="interest.html"><i class="fa fa-certificate"></i> Interest Classes | 兴趣课</a>
+              <a class="mando nav-link" href="interest.html"><i class="fa fa-certificate"></i> Interest Classes | 兴趣课</a>
+              <a class="canto nav-link" href="interest.html"><i class="fa fa-certificate"></i> Interest Classes | 興趣課</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="documents/calendar.pdf"><i class="fa fa-calendar"></i> Calendar | 学校校历</a>
+              <a class="mando nav-link" href="documents/calendar.pdf"><i class="fa fa-calendar"></i> Calendar | 学校校历</a>
+              <a class="canto nav-link" href="documents/calendar.pdf"><i class="fa fa-calendar"></i> Calendar | 學校校歷</a>
             </li>
 
             <br>
             <li class="list-group-item">
-              <a class="nav-link" href="registration.html"><i class="fa fa-file-o"></i> Registration | 注册报名</a>
+              <a class="mando nav-link" href="registration.html"><i class="fa fa-file-o"></i> Registration | 注册报名</a>
+              <a class="canto nav-link" href="registration.html"><i class="fa fa-file-o"></i> Registration | 註冊報名</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="newsletter.html"><i class="fa fa-envelope-open-o"></i> Newsletters | 校园新闻</a>
+              <a class="mando nav-link" href="newsletter.html"><i class="fa fa-envelope-open-o"></i> Newsletters | 校园新闻</a>
+              <a class="canto nav-link" href="newsletter.html"><i class="fa fa-envelope-open-o"></i> Newsletters | 校園新聞</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="photos.html"><i class="fa fa-picture-o"></i> Photos | 相片集锦</a>
+              <a class="mando nav-link" href="photos.html"><i class="fa fa-picture-o"></i> Photos | 相片集锦</a>
+              <a class="canto nav-link" href="photos.html"><i class="fa fa-picture-o"></i> Photos | 相片集錦</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="contact.html"><i class="fa fa-phone"></i> Contact Us | 联系我们</a>
+              <a class="mando nav-link" href="contact.html"><i class="fa fa-phone"></i> Contact Us | 联系我们</a>
+              <a class="canto nav-link" href="contact.html"><i class="fa fa-phone"></i> Contact Us | 聯繫我們</a>
             </li>
           </ul>
         </nav>
@@ -80,10 +95,13 @@
 
         <!-- Chinese -->
         <div class="jumbotron">
-          <h2 class="text-center">学校简介</h2>
+          <h2 class="mando text-center">学校简介</h2>
+          <h2 class="canto text-center">學校簡介</h2>
           <hr>
-          <p>渥太华首都中文学校隶属于渥太华卡尔顿天主教教育局，师资强大，拥有学员逾千人。该校融合西方的语言交际教学法与传统的中文教学法于一体
+          <p class="mando">渥太华首都中文学校隶属于渥太华卡尔顿天主教教育局，师资强大，拥有学员逾千人。该校融合西方的语言交际教学法与传统的中文教学法于一体
             根据学员的需求及中国语言的特点，设计独特的教学大纲对学员进行听说读写全方位的语言培训。</p>
+          <p class="canto">渥太華首都中文學校隸屬於渥太華卡爾頓天主教教育局，師資強大，擁有學員逾千人。該校融合西方的語言交際教學法與傳統的中文教學法於一體
+            根據學員的需求及中國語言的特點，設計獨特的教學大綱對學員進行聽說讀寫全方位的語言培訓。</p>
         </div>
 
         <!-- English -->
@@ -105,7 +123,8 @@
 
         <!-- Links to forms -->
         <div class="jumbotron">
-          <h2 class="text-center">Links | 链接</h2>
+          <h2 class="mando text-center">Links | 链接</h2>
+          <h2 class="canto text-center">Links | 鏈接</h2>
           <hr>
           <li><a href="http://conted.ocsb.ca/summer/elementary-summer-il">2022 Summer School Registration</a></li>
           <li><a href="documents/SummerCamp2022Information.pdf">2022 Summer afternoon camp information</a></li>

@@ -4,10 +4,15 @@ body {
     font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
     font-size: 15px;
     background-color: #F2F2F2;
+    visibility: hidden;
 }
 
 button {
     background-color: #B6D094;
+}
+
+.canto {
+    display: none;
 }
 
 .navbar-brand {

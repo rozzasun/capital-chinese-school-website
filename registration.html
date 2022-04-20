@@ -12,6 +12,7 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
+  <script src="language.js"></script>
   <title>渥太华首都中文学校</title>
 </head>
 
@@ -22,7 +23,8 @@
       <img class="d-none d-md-block logo-img img-fluid"  src="img/OCCSLogo.png">
       <div class="d-flex flex-column align-items-center">
         <div class="d-sm-flex d-block flex-nowrap">
-          <p class="navbar-brand mr-5 ml-5 title" href="#">渥太华首都中文学校</p>
+          <p class="mando navbar-brand mr-5 ml-5 title" href="#">渥太华首都中文学校</p>
+          <p class="canto navbar-brand mr-5 ml-5 title" href="#">渥太華首都中文學校</p>
         </div>
         <p class="sub-title">Ottawa Capital Chinese School</p>
       </div>
@@ -36,39 +38,50 @@
 
       <!-- SideNav -->
       <div class="col-lg-3 col-md-4">
+        <div class="ml-1 row justify-content-start">
+          <div><button class="btn btn-link" id="mandarin-btn">Mandarin 普通话</button> | <button class="btn btn-link" id="cantonese-btn">Cantonese 粤语</button></div>
+        </div>
         <nav class="user_nav">
           <ul class="list-group">
             <li class="list-group-item">
-              <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home | 首页</a>
+              <a class="mando nav-link" href="index.html"><i class="fa fa-home"></i> Home | 首页</a>
+              <a class="canto nav-link" href="index.html"><i class="fa fa-home"></i> Home | 首頁</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="courses.html"><i class="fa fa-book"></i> Courses | 课程介绍</a>
+              <a class="mando nav-link" href="courses.html"><i class="fa fa-book"></i> Courses | 课程介绍</a>
+              <a class="canto nav-link" href="courses.html"><i class="fa fa-book"></i> Courses | 課程介紹</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="interest.html"><i class="fa fa-certificate"></i> Interest Classes | 兴趣课</a>
+              <a class="mando nav-link" href="interest.html"><i class="fa fa-certificate"></i> Interest Classes | 兴趣课</a>
+              <a class="canto nav-link" href="interest.html"><i class="fa fa-certificate"></i> Interest Classes | 興趣課</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="documents/calendar.pdf"><i class="fa fa-calendar"></i> Calendar | 学校校历</a>
+              <a class="mando nav-link" href="documents/calendar.pdf"><i class="fa fa-calendar"></i> Calendar | 学校校历</a>
+              <a class="canto nav-link" href="documents/calendar.pdf"><i class="fa fa-calendar"></i> Calendar | 學校校歷</a>
             </li>
 
             <br>
             <li class="list-group-item active">
-              <a class="nav-link" href="registration.html"><i class="fa fa-file-o"></i> Registration | 注册报名</a>
+              <a class="mando nav-link" href="registration.html"><i class="fa fa-file-o"></i> Registration | 注册报名</a>
+              <a class="canto nav-link" href="registration.html"><i class="fa fa-file-o"></i> Registration | 註冊報名</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="newsletter.html"><i class="fa fa-envelope-open-o"></i> Newsletters | 校园新闻</a>
+              <a class="mando nav-link" href="newsletter.html"><i class="fa fa-envelope-open-o"></i> Newsletters | 校园新闻</a>
+              <a class="canto nav-link" href="newsletter.html"><i class="fa fa-envelope-open-o"></i> Newsletters | 校園新聞</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="photos.html"><i class="fa fa-picture-o"></i> Photos | 相片集锦</a>
+              <a class="mando nav-link" href="photos.html"><i class="fa fa-picture-o"></i> Photos | 相片集锦</a>
+              <a class="canto nav-link" href="photos.html"><i class="fa fa-picture-o"></i> Photos | 相片集錦</a>
             </li>
 
             <li class="list-group-item">
-              <a class="nav-link" href="contact.html"><i class="fa fa-phone"></i> Contact Us | 联系我们</a>
+              <a class="mando nav-link" href="contact.html"><i class="fa fa-phone"></i> Contact Us | 联系我们</a>
+              <a class="canto nav-link" href="contact.html"><i class="fa fa-phone"></i> Contact Us | 聯繫我們</a>
             </li>
           </ul>
         </nav>
@@ -79,7 +92,8 @@
 
         <!-- Links to forms -->
         <div class="jumbotron">
-          <h2 class="text-center">Links | 链接</h2>
+          <h2 class="mando text-center">Links | 链接</h2>
+          <h2 class="canto text-center">Links | 鏈接</h2>
           <hr>
           <li><a href="http://conted.ocsb.ca/summer/elementary-summer-il">2022 Summer School Registration</a></li>
           <li><a href="documents/SummerCamp2022Information.pdf">2022 Summer afternoon camp information</a></li>
@@ -94,18 +108,29 @@
         <div class="jumbotron">
           <div class="row">
             <div class="col-lg-6">
-              <h3 class="text-center">秋/冬季班</h3>
+              <h3 class="mando text-center">秋/冬季班</h3>
+              <h3 class="canto text-center">秋/冬季班</h3>
               <hr>
-              <p><strong>时间：</strong>每年九月初至六月，周六上午9:30至中午12点。</p>
-              <p><strong>班级：</strong>国语）幼儿园低班到12级，成人班。</p>
-              <p><strong>下午学生课外兴趣班 (12:10-1:10pm)：</strong>歌舞，数学，算盘，中国象棋，围棋
-                武术, 电子琴，中国节编织，绘画。</p>
-              <p><strong>家长室内活动包括：</strong>篮球和羽毛球等。</p>
+              <p class="mando"><strong>时间：</strong>每年九月初至六月，周六上午9:30至中午12点。</p>
+              <p class="canto"><strong>時間：</strong>每年九月初至六月，週六上午9:30至中午12點。</p>
+
+              <p class="mando"><strong>班级：</strong>普通话，廣東話：幼儿园低班到12级，成人班。</p>
+              <p class="canto"><strong>班級：</strong>普通话，廣東話：幼兒園低班到12級，成人班。</p>
+
+              <p class="mando"><strong>下午学生课外兴趣班 (12:10-1:10pm)：</strong>演讲，声乐，舞蹈，数学，算盘，中国象棋，围棋，
+                武术，绘画，篮球和羽毛球。</p>
+              <p class="canto"><strong>下午學生課外興趣班 (12:10-1:10pm)：</strong>演講，聲樂，舞蹈，數學，算盤，中國象棋，圍棋，
+                武術，繪畫，籃球和羽毛球。</p>
+
+              <p class="mando"><strong>家长室内活动包括：</strong>篮球羽，毛球，舞蹈和瑜伽。</p>
+              <p class="canto"><strong>家長室內活動包括：</strong>籃球羽，毛球，舞蹈和瑜伽。 </p>
             </div>
             <div class="col-lg-6">
-              <h3 class="text-center mt-6">暑期班</h3>
+              <h3 class="mando text-center mt-6">暑期班</h3>
+              <h3 class="canto text-center mt-6">暑期班</h3>
               <hr>
-              <p><strong>时间：</strong>每年七月至八月，周一至周五(半日或全日)。</p>
+              <p class="mando"><strong>时间：</strong>每年七月至八月，周一至周五 (半日或全日)。</p>
+              <p class="canto"><strong>時間：</strong>每年七月至八月，週一至週五 (半日或全日)。 </p>
             </div>
           </div>
         </div>
@@ -117,19 +142,16 @@
               <h3 class="text-center">Fall/Winter Term</h3>
               <hr>
               <p><strong>Time: </strong>Beginning of September to June Saturdays, 9:30am to 12:00pm</p>
-              <p><strong>Class: </strong>(simplified Mandarin) A total of 14 levels from Junior Kindergarden to level
-                12,
-                Adult Class</p>
-              <p><strong>Parents recreational activities: </strong>Basketball, Badminton and so on.</p>
-              <p><strong>Afternoon extra activities: </strong>Singing and Dancing, Mathematics, Abacus, Chinese Chess,
-                Go,
-                Kungfu,
-                Electronic Keyboard, Chinese Knot Weaving and Drawing</p>
+              <p><strong>Class: </strong>(simplified Mandarin and Cantonese) A total of 14 levels from Junior Kindergarden to level
+                12, Adult Class</p>
+              <p><strong>Afternoon extra activities (12:10-1:10pm): </strong>Public Speaking, Singing, Dancing, Mathematics, Abacus, Chinese Chess,
+                Go, Kungfu, Drawing, Basketball, and Badminton.</p>
+              <p><strong>Parents recreational activities: </strong>Basketball, Badminton, Dance, and Yoga.</p>
             </div>
             <div class="col-lg-6">
               <h3 class="text-center mt-6">Summer School</h3>
               <hr>
-              <p><strong>Time: </strong>July to August Weekdays, Half or Full Day</p>
+              <p><strong>Time: </strong>July to August Weekdays, Half or Full Day.</p>
             </div>
           </div>
         </div>
