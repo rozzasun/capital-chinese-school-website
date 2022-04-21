@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+SC&family=Satisfy&display=swap');
 
 body {
     font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
@@ -43,7 +43,7 @@ button {
 }
 
 .title {
-    font-family: 'Ma Shan Zheng', cursive;
+    font-family: 'Noto Sans SC';
 }
 
 .sub-title {
